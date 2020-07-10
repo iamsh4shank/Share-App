@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_share"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/navigation_group"
+        android:checked="false"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="@string/room" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:checked="false"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile" />
+
+</menu>

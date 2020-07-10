@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mItem_connect_to_pc"
+        android:enabled="true"
+        android:title="@string/connect_to_pc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mItem_scan_to_connect"
+        android:enabled="true"
+        android:title="@string/scan_to_connect"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mItem_invite"
+        android:enabled="true"
+        android:title="@string/invite"
+        app:showAsAction="never" />
+</menu>
