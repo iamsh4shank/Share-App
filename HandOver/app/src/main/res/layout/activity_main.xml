@@ -15,6 +15,9 @@
         android:background="?android:windowBackground"
         android:layout_height="match_parent">
 
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
