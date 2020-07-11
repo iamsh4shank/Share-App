@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1783968176/Hand_Over.iml" filepath="$PROJECT_DIR$/.idea/modules/1783968176/Hand_Over.iml" group="Hand_Over" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Hand Over/app" />
+    </modules>
+  </component>
+</project>
