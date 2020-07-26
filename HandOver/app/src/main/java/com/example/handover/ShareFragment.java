@@ -93,19 +93,7 @@ public class ShareFragment extends Fragment  {
     }
 
     public void receiveFiles(View view) {
-        HotspotControl hotspotControl = HotspotControl.getInstance(getContext());
-        if (null != hotspotControl && hotspotControl.isEnabled()) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-            builder.setMessage("Sender(Hotspot) mode is active. Please disable it to proceed with Receiver mode");
-            builder.setNeutralButton("OK", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    dialogInterface.cancel();
-                }
-            });
-            builder.show();
-            return;
-        }
+        //TODO: need to write receiver code
         startActivity(new Intent(getContext(), ReceiverActivity.class));
     }
 
